@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.reqres.delete.DeleteUser">
+      <class name="com.reqres.post.login.UserLogin">
         <methods>
-          <include name="deleteUser"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- com.reqres.delete.DeleteUser -->
+      </class> <!-- com.reqres.post.login.UserLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
